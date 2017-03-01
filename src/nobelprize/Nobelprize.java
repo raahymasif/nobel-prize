@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 /**
  *
  * @author Chris Mattinson <mattinsonc@mymacewan.ca>
- *          Raahym Asif
+ *          Raahym Asif <asifr@mymacewan.ca>
  */
 public class Nobelprize extends Application {
     
