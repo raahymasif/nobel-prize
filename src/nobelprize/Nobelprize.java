@@ -7,9 +7,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- *
  * @author Chris Mattinson <mattinsonc@mymacewan.ca>
- *          Raahym Asif <asifr@mymacewan.ca>
+ * @author Raahym Asif <asifr@mymacewan.ca>
  */
 public class Nobelprize extends Application {
     
