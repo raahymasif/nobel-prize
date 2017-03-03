@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="542.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nobelprize.FXMLDocumentController">
+   <children>
+      <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="View">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <SplitPane dividerPositions="0.25" prefHeight="200.0" prefWidth="320.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label alignment="TOP_LEFT" layoutX="90.0" layoutY="108.0" prefHeight="16.0" prefWidth="63.0" text="Laureate" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="313.0" AnchorPane.topAnchor="96.0" />
+                  <Label alignment="TOP_LEFT" layoutX="93.0" layoutY="135.0" prefHeight="16.0" prefWidth="56.0" text="Country" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="136.0" />
+                  <Label alignment="TOP_LEFT" layoutX="96.0" layoutY="172.0" text="Prize" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="317.0" AnchorPane.topAnchor="176.0" />
+                  <Label alignment="TOP_LEFT" layoutX="93.0" layoutY="211.0" text="Year" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="317.0" AnchorPane.topAnchor="216.0" />
+                  <TextField layoutX="160.0" layoutY="92.0" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="92.0" />
+                  <TextField layoutX="183.0" layoutY="139.0" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="132.0" />
+                  <TextField layoutX="185.0" layoutY="181.0" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="172.0" />
+                  <TextField layoutX="186.0" layoutY="237.0" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="212.0" />
+                  <Button layoutX="215.0" layoutY="256.0" mnemonicParsing="false" text="Search" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="252.0" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
